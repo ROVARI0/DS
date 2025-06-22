@@ -24,7 +24,7 @@ int findUnique(int arr[], int size)
 
 int main()
 {
-    int arr[] = {1, 1,4, 2, 1, 2};
+    int arr[] = {1, 1, 4, 2, 1, 2};
     int size = sizeof(arr) / sizeof(arr[0]);
     cout << findUnique(arr, size) << endl; // Output: 4
     return 0;
